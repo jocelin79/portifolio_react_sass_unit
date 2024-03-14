@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>React + Sass</h1>
+      <h1>Reat + Sass</h1>
     </>
   )
 }
