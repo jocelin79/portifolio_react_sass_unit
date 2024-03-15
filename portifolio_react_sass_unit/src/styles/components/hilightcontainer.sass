@@ -1,0 +1,27 @@
+@use '../variables'
+@use '../mixins'
+
+.hilight-container
+    margin-top: 1rem
+    margin-bottom: 1rem
+
+    .hilight-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .hilight-card
+            @include mixins.center
+            padding: 1rem
+            border: 1px solid #333
+            width: 45%
+            border-radius: variables.$card-border-radius
+            gap: 1.5rem
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+
+            .btn-hilight
+                margin-top: 2rem
+                margin-bottom: 1rem

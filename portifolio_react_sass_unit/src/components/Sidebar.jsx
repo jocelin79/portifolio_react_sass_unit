@@ -12,7 +12,6 @@ const Sidebar = () => {
             <p className='title'>Desenvolvedor</p>
             <SocialNetworks/>
             <InformationContainer/>
-            <p>informações de contato</p>
             <a href="" className='btn'>Doanload Currículo</a>
         </aside>
     )
