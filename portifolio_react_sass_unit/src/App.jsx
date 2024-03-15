@@ -1,8 +1,16 @@
+import Sidebar from "./components/Sidebar"
+import MainContent from "./components/MainContent"
+
+import './styles/components/app.sass'
+
 function App() {
   return (
-    <>
-      <h1>Reat + Sass</h1>
-    </>
+    <div id="portfolio">
+      <h1>Jocelin Nunes</h1>
+      <Sidebar/>
+      <MainContent/>
+    </div>
+
   )
 }
 
